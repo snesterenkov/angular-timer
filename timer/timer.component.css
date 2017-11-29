@@ -1,0 +1,20 @@
+.button {
+  background-color: #0099cc;
+  border: 5px;
+  width: 8%;
+  color: white;
+  padding: 1% 2px;
+  text-align: match-parent;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button-wait:active {
+  background-color: #ffb3b3;
+}
+.button:disabled {
+  background-color: #9494b8;
+}

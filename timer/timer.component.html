@@ -1,0 +1,5 @@
+<h2> {{ curTime.hours | number:'2.0-0' }}:{{ curTime.minutes | number:'2.0-0' }}:{{ secondsFormat | number: '2.0-0' }} </h2>
+<button class="button" (click)="startStopButton()">{{ startStopButtonName }}</button>
+<button class="button button-wait" (click)="waitButton()" [disabled]="!isValidButton">Wait</button>
+<button class="button" (click)="reset()">Reset</button>
+
